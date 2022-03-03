@@ -1,0 +1,91 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  product: Navigation
+  levels: three
+  folders:
+
+  - title: vSphere Cloud Provider
+    output: web
+    folderitems:
+    - title: Introduction
+      url: /index.html
+      output: web
+    - title: Overview
+      url: /overview.html
+      output: web
+      subfolders:
+      - title: Provisioning Methods
+        output: web
+        subfolderitems:
+        - title: Dynamic Provisioning (Recommended)
+          url: /policy-based-mgmt.html
+          output: web
+        - title: Static Provisioning
+          url: /persistent-vols-claims.html
+          output: web
+    - title: Zone Support
+      url: /zones.html
+      output: web
+    - title: Versions
+      url: /versions.html
+      output: web
+  - title: Deployment
+    output: web
+    folderitems:
+      - title: Prerequisites
+        url: /prerequisites.html
+        output: web
+      - title: Configuration
+        url: /existing.html
+        output: web
+      - title: Permissions
+        url: /vcp-roles.html
+        output: web
+  - title: Upgrades
+    output: web
+    folderitems:
+      - title: Upgrade to v1.9.x
+        url: /kubernetes-upgrade.html
+        output: web
+  - title: Troubleshooting
+    output: web
+    folderitems:
+    - title: FAQs
+      url: /faqs.html
+      output: web
+    - title: Known Issues
+      url: /known-issues.html
+      output: web
+    - title: Logs and debugging
+      url: /troubleshooting.html
+      output: web
+  - title: Appendices
+    output: web
+    folderitems:
+      - title: Scaling Limits
+        url: /maximum-scale-limit.html
+        output: web
+      - title: SAML Authentication
+        url: /saml-token-authentication.html
+        output: web
+      - title: Securing Credentials
+        url: /k8s-secret.html
+        output: web
+      - title: High Availability of Kubernetes Cluster
+        url: /high-availability.html
+        output: web
+        subfolders:
+        - title: Example Applications
+          output: web
+          subfolderitems:
+          - title: Guestbook
+            url: /guestbook.html
+            output: web
+          - title: Minio
+            url: /minio.html
+            output: web
+          - title: MongoDB
+            url: /mongodb.html
+            output: web
